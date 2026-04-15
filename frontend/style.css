@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    padding: 40px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+#loader {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    margin-top: 20px;
+    width: 300px;
+}
