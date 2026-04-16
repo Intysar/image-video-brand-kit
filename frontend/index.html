@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>AI Image Generator</title>
+    <meta charset="UTF-8">
+    <title>Brand Kit Generator - Test</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="container">
+        <h1>Brand Kit <span>Generator</span></h1>
+        <p>Enter a description to generate your brand asset.</p>
 
-    <h1>AI Image Generator</h1>
+        <div class="input-group">
+            <input type="text" id="promptInput" placeholder="Ex: A luxury gold and black logo for a watch brand...">
+            <button id="generateBtn">Generate Image</button>
+        </div>
 
-    <textarea id="prompt" placeholder="Enter your prompt..."></textarea>
-
-    <button onclick="generateImage()">Generate</button>
-
-    <div id="loader" class="hidden">Generating...</div>
-
-    <img id="result" />
-
+        <div class="result-area">
+            <div id="loader" class="hidden">Generating... Please wait (2-3 mins)</div>
+            <img id="resultImage" src="" alt="Generated Result" class="hidden">
+        </div>
+    </div>
     <script src="script.js"></script>
-
 </body>
 
 </html>
